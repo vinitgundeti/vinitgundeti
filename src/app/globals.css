@@ -25,6 +25,15 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

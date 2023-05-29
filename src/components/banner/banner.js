@@ -2,7 +2,7 @@ import Image from "next/image";
 import style from "./banner.module.css";
 export default function Banner() {
   return (
-    <div className={style.banner}>
+    <div className={`wrapper ${style.banner}`}>
       <Image
         src="/assets/images/banner-image.jpeg"
         width={250}
