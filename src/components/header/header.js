@@ -7,7 +7,7 @@ export default function Header() {
     <header className={style.header}>
       <Link href="/" title="Vinit Gundeti">
         <Image
-          src="/assets/images/47896506.gif"
+          src="/assets/images/logo.gif"
           width={50}
           height={50}
           alt="Picture of the author"

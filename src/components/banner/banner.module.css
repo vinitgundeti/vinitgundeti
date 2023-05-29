@@ -1,0 +1,21 @@
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.bannerImage {
+    border-radius: 150px;
+    margin-right: 5%;
+}
+.bannerTitle {
+    margin-bottom: 10px;
+}
+.bannerDescription {
+    line-height: 24px;
+}
