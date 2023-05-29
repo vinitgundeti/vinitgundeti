@@ -1,0 +1,26 @@
+.header {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerImage {
+    border-radius: 25px;
+    transition: opacity 0.2s ease-in-out;
+}
+.headerImage:hover {
+    opacity: 0.7;
+}
+.navList {
+    display: flex;
+}
+.navList > li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+.links {
+    cursor: pointer;
+}
+.links:hover {
+    text-decoration: underline;
+}
