@@ -1,9 +1,10 @@
-export default function SkillsCard() {
+import Image from "next/image";
+import style from "./skills.module.css";
+export default function SkillsCard({ name, img }) {
   return (
-    <li>
-      <a title="React Native">
-        <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" />
-      </a>
+    <li className={style.skillsCard}>
+      <Image src={img} className={style.skillLogo} alt={name} width={60} height={60} />
+      <span className={style.skillName}>{name}</span>
     </li>
   );
 }
