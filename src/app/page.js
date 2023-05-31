@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header/header";
-import style from './page.module.css'
+import style from "./page.module.css";
 import Banner from "@/components/banner/banner";
 import Skills from "@/components/skills/skills";
 
@@ -9,8 +9,10 @@ export default function Home() {
     <main>
       <div className={style.mainWrapper}>
         <Header />
-        <Banner/>
-        <Skills/>
+      </div>
+      <div>
+        <Banner />
+        <Skills />
       </div>
     </main>
   );
