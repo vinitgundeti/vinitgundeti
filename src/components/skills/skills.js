@@ -8,7 +8,7 @@ export default function Skills() {
       <h2 className={style.title}>My Skills</h2>
       <ul className={style.skillsContainer}>
         {skillsData.map((skills) => (
-          <SkillsCard key={skills.name} name={skills.name} img={skills.img}/>
+          <SkillsCard key={skills.name} name={skills.name} img={skills.img} />
         ))}
       </ul>
     </div>
