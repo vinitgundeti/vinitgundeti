@@ -32,51 +32,63 @@ export const skillsData = [
     img: "/assets/images/kendo-ui.webp",
   },
   {
-    name: "Video JS",
-    img: "/assets/images/videojs.png",
+    name: "Javascript",
+    img: "/assets/images/js.png",
   },
   {
-    name: "Google Maps",
-    img: "/assets/images/google-map.png",
+    name: "HTML",
+    img: "/assets/images/html5.png",
   },
   {
-    name: "Map Box",
-    img: "/assets/images/mapbox.png",
+    name: "CSS",
+    img: "/assets/images/css3.png",
   },
-  {
-    name: "Juspay",
-    img: "/assets/images/juspay.jpeg",
-  },
-  {
-    name: "PayU Money",
-    img: "/assets/images/payu.webp",
-  },
-  {
-    name: "Bugsnag",
-    img: "/assets/images/bugsnag.png",
-  },
-  {
-    name: "Firebase",
-    img: "/assets/images/firebase.png",
-  },
-  {
-    name: "FB Pixel",
-    img: "/assets/images/fb-pixel.png",
-  },
-  {
-    name: "WebEngage",
-    img: "/assets/images/webengage.png",
-  },
-  {
-    name: "Mixpanel",
-    img: "/assets/images/mixpanel.png",
-  },
-  {
-    name: "Amplitude",
-    img: "/assets/images/amplitude.png",
-  },
-  {
-    name: "Youbora",
-    img: "/assets/images/youbora.png",
-  },
+  // {
+  //   name: "Video JS",
+  //   img: "/assets/images/videojs.png",
+  // },
+  // {
+  //   name: "Google Maps",
+  //   img: "/assets/images/google-map.png",
+  // },
+  // {
+  //   name: "Map Box",
+  //   img: "/assets/images/mapbox.png",
+  // },
+  // {
+  //   name: "Juspay",
+  //   img: "/assets/images/juspay.jpeg",
+  // },
+  // {
+  //   name: "PayU Money",
+  //   img: "/assets/images/payu.webp",
+  // },
+  // {
+  //   name: "Bugsnag",
+  //   img: "/assets/images/bugsnag.png",
+  // },
+  // {
+  //   name: "Firebase",
+  //   img: "/assets/images/firebase.png",
+  // },
+  // {
+  //   name: "FB Pixel",
+  //   img: "/assets/images/fb-pixel.png",
+  // },
+  // {
+  //   name: "WebEngage",
+  //   img: "/assets/images/webengage.png",
+  // },
+  // {
+  //   name: "Mixpanel",
+  //   img: "/assets/images/mixpanel.png",
+  // },
+  // {
+  //   name: "Amplitude",
+  //   img: "/assets/images/amplitude.png",
+  // },
+  // {
+  //   name: "Youbora",
+  //   img: "/assets/images/youbora.png",
+  // },
 ];

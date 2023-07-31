@@ -20,10 +20,10 @@ export default function Header() {
             <a className={style.links} title="About Me">About Me</a>
           </li>
           <li>
-            <a className={style.links} title="My Work">My Work</a>
+            <a className={style.links} title="My Skills">My Skills</a>
           </li>
           <li>
-            <a className={style.links} title="My Skills">My Skills</a>
+            <a className={style.links} title="My Work">My Work</a>
           </li>
           <li>
             <a className={style.links} title="Testimonials">Testimonials</a>
