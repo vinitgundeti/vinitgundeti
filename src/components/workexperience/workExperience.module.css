@@ -1,0 +1,108 @@
+.workExperienceSection {
+    margin-top: 40px;
+}
+
+.cardWrap {
+    position: relative;
+}
+
+.cardWrap::before {
+    content: "";
+    height: 100%;
+    border: 2px solid #000;
+    position: absolute;
+    left: 50%;
+    border-radius: 12px;
+}
+
+.card {
+    width: 50%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.companyWrap {
+    position: relative;
+}
+.companyName {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.rightCard {
+    margin-left: auto;
+    padding-left: 60px;
+}
+.leftCard {
+    padding-right: 60px;
+}
+
+.pointer {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: calc(50% - 9px);
+}
+.rightCard .pointer {
+    border-right: 15px solid red;
+    left: -15px;
+}
+
+.leftCard .pointer {
+    border-left: 15px solid red;
+    right: -15px;
+}
+
+.summaryList {
+    background-color: #f5f9ff;
+    padding: 20px 20px 10px 30px;
+}
+
+.summaryList li {
+    line-height: 1.6;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+.yearTextWrap {
+    position: absolute;
+    width: 220px;
+    top: 15px;
+}
+.rightYearTextWrap {
+    left: -260px;
+    text-align: right;
+}
+.leftYearTextWrap {
+    right: -260px;
+    text-align: left;
+}
+.yearText {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.iconWrap {
+    position: absolute;
+    background-color: red;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightCard .iconWrap {
+    left: -18px;
+}
+.leftCard .iconWrap {
+    right: -21px;
+}

@@ -20,6 +20,10 @@ export const skillsData = [
     img: "/assets/images/redux.png",
   },
   {
+    name: "Redux Saga",
+    img: "/assets/images/redux-saga.png",
+  },
+  {
     name: "React Query",
     img: "/assets/images/reactquery.png",
   },
