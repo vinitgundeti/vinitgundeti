@@ -22,6 +22,10 @@
     position: relative;
     margin-bottom: 50px;
 }
+.mainCard {
+    box-shadow: 0 0 9px 0px #00000024;
+    border-radius: 6px;
+}
 .companyWrap {
     position: relative;
 }

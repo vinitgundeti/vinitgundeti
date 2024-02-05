@@ -11,7 +11,7 @@ export default function WorkExperienceCard({ item, isRightCard }) {
       <div className={style.iconWrap} style={{backgroundColor: item.bgColor}}>
         <ClockIcon/>
       </div>
-      <div>
+      <div className={style.mainCard}>
         <div className={style.companyWrap}>
           <h3 className={style.companyName} style={{backgroundColor: item.bgColor}}>{item.company}</h3>
           <span className={style.pointer} style={isRightCard ? {borderRightColor: item.bgColor} : {borderLeftColor: item.bgColor}}></span>

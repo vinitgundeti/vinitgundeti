@@ -1,0 +1,31 @@
+.img {
+    border-radius: 50%;
+}
+.section {
+    margin-top: 20px;
+}
+.card {
+    padding: 20px;
+    box-shadow: 0 0 9px 0px #00000024;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.cardUpper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mainInfo {
+    margin-left: 20px;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.feedback {
+    line-height: 1.6;
+    color: #333;
+}
