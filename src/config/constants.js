@@ -46,55 +46,7 @@ export const skillsData = [
   {
     name: "CSS",
     img: "/assets/images/css3.png",
-  },
-  // {
-  //   name: "Video JS",
-  //   img: "/assets/images/videojs.png",
-  // },
-  // {
-  //   name: "Google Maps",
-  //   img: "/assets/images/google-map.png",
-  // },
-  // {
-  //   name: "Map Box",
-  //   img: "/assets/images/mapbox.png",
-  // },
-  // {
-  //   name: "Juspay",
-  //   img: "/assets/images/juspay.jpeg",
-  // },
-  // {
-  //   name: "PayU Money",
-  //   img: "/assets/images/payu.webp",
-  // },
-  // {
-  //   name: "Bugsnag",
-  //   img: "/assets/images/bugsnag.png",
-  // },
-  // {
-  //   name: "Firebase",
-  //   img: "/assets/images/firebase.png",
-  // },
-  // {
-  //   name: "FB Pixel",
-  //   img: "/assets/images/fb-pixel.png",
-  // },
-  // {
-  //   name: "WebEngage",
-  //   img: "/assets/images/webengage.png",
-  // },
-  // {
-  //   name: "Mixpanel",
-  //   img: "/assets/images/mixpanel.png",
-  // },
-  // {
-  //   name: "Amplitude",
-  //   img: "/assets/images/amplitude.png",
-  // },
-  // {
-  //   name: "Youbora",
-  //   img: "/assets/images/youbora.png",
-  // },
+  }
 ];
 
 export const testimonialsData = [
@@ -122,4 +74,22 @@ export const testimonialsData = [
     feedback: "I have had the privilege of working with Vinit Gundeti on multiple web development projects and I am thoroughly impressed by his technical skills and expertise. Vinit demonstrated exceptional proficiency in React, delivering high-quality outcomes consistently within tight deadlines. He is a highly communicative individual and a team player, always going the extra mile to ensure project success. I have watched Vinit grow as a web developer and I have no doubt that he will continue to excel in his future endeavors. I highly recommend Vinit for any web development role and I am confident that his technical skills and commitment to excellence will make him a valuable asset to any organization.",
     img: "/assets/images/testimonials/am.jpeg"
   }
+]
+
+export const socialMediaLinks = [
+  {
+    alt: "instagram",
+    img: "/assets/images/socialmedia/instagram.png",
+    link: "https://www.instagram.com/win_it____/"
+  },
+  {
+    alt: "linkedin",
+    img: "/assets/images/socialmedia/linkedin.png",
+    link: "https://www.linkedin.com/in/vinit-gundeti-0617a69b/"
+  },
+  {
+    alt: "github",
+    img: "/assets/images/socialmedia/git.png",
+    link: "https://github.com/vinitgundeti"
+  },
 ]

@@ -5,6 +5,7 @@ import Banner from "@/components/banner/banner";
 import Skills from "@/components/skills/skills";
 import WorkExperience from "@/components/workexperience/workExperience";
 import Testimonials from "@/components/testimonials/testimonials";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -12,12 +13,13 @@ export default function Home() {
       <div className={style.mainWrapper}>
         <Header />
       </div>
-      <main id={style.main}>
+      <div id={style.main}>
         <Banner />
         <Skills />
         <WorkExperience/>
         <Testimonials/>
-      </main>
+      </div>
+      <Footer/>
     </main>
   );
 }
