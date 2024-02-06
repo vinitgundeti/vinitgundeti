@@ -105,16 +105,16 @@ export const testimonialsData = [
     img: "/assets/images/testimonials/jd.jpg"
   },
   {
-    name: "Rohit Ninawe",
-    designation: "Senior Software Engineer at CometChat",
-    feedback: "I had the pleasure of working with Vinit on several projects and I can confidently say that he is a true asset to any team. His extensive knowledge in React JS and React Native is unparalleled and his passion for coding is contagious. He has an exceptional ability to quickly learn new technologies and is always eager to dive in and find the most efficient solution to any problem.\nHis dedication and quick adaptation to new technologies has been a key factor in the success of our projects. He consistently goes above and beyond to deliver high-quality work and is a true team player. His positive attitude and strong work ethic make him a joy to work with.\nI would highly recommend Vinit for any project or team. He would be an asset to any organization and I am confident that he will continue to excel in his future endeavors.",
-    img: "/assets/images/testimonials/rn.jpg"
-  },
-  {
     name: "Shravankumar Suvarna",
     designation: "Product @ ABCX",
     feedback: "I worked with Vinit at Glide Invest (Motilal Oswal) and he's one of the rockstar techies of the team. He's very passionate about tech and is always open to challenges. We faced a lot of challenges while building the product and somehow he managed to overcome all of them in the required time. He shares his opinions (sometimes opposing) about the features that we built together - a rare quality in a techie that helps in building meaningful products. I hope that we cross paths again in future as well. Cheers",
     img: "/assets/images/testimonials/ss.jpeg"
+  },
+  {
+    name: "Rohit Ninawe",
+    designation: "Senior Software Engineer at CometChat",
+    feedback: "I had the pleasure of working with Vinit on several projects and I can confidently say that he is a true asset to any team. His extensive knowledge in React JS and React Native is unparalleled and his passion for coding is contagious. He has an exceptional ability to quickly learn new technologies and is always eager to dive in and find the most efficient solution to any problem.\nHis dedication and quick adaptation to new technologies has been a key factor in the success of our projects. He consistently goes above and beyond to deliver high-quality work and is a true team player. His positive attitude and strong work ethic make him a joy to work with.\nI would highly recommend Vinit for any project or team. He would be an asset to any organization and I am confident that he will continue to excel in his future endeavors.",
+    img: "/assets/images/testimonials/rn.jpg"
   },
   {
     name: "Aniket Mishra",

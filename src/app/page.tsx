@@ -12,12 +12,12 @@ export default function Home() {
       <div className={style.mainWrapper}>
         <Header />
       </div>
-      <div>
+      <main id={style.main}>
         <Banner />
         <Skills />
         <WorkExperience/>
         <Testimonials/>
-      </div>
+      </main>
     </main>
   );
 }

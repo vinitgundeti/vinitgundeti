@@ -1,11 +1,14 @@
 .workExperienceSection {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .cardWrap {
     position: relative;
 }
 
+.title {
+    margin-bottom: 60px;
+}
 .cardWrap::before {
     content: "";
     height: 100%;
